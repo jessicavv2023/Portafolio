@@ -9,7 +9,19 @@
   align-items: center;
   justify-content: space-between;
 }
-
+.nav-item:hover {
+  color: #0a0a23;
+  background-color: #ffc805;
+  border-radius: 10px;
+}
+.nav-link {
+  color: #0b1357e9 !important;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: #0b1357 !important;
+  font-family: Rubik;
+}
 /* Estilos generales */
 
 section {
@@ -70,8 +82,8 @@ h1 {
 
 .texto-negro {
   color: black;
-  margin-top: 19px;
-  margin-bottom: 47px;
+  margin-top: 25px;
+  /* margin-bottom: 47px; */
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -529,5 +541,49 @@ strong {
   color: #ffc805 !important;
 }
 .rounded-circle {
-  border-radius: 10% !important;
+  border-radius: 7% !important;
+}
+/* Estilo foto de inicio  */
+.hero {
+  display: flex;
+  align-items: stretch;
+}
+.textCardImg {
+  color: #ffffff;
+}
+.hero-principal {
+  position: relative;
+  text-align: center;
+}
+
+.polaroid-frame {
+  position: relative;
+  display: inline-block;
+  /* padding: 10px; */
+  background-color: #0b1357; /* Color de fondo azul claro */
+  border: 10px solid #0b1357; /* Color del borde */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  /* height: 379px; */
+  margin-bottom: 40px;
+}
+
+.polaroid-frame:hover {
+  transform: scale(1.05);
+}
+
+.hero-imagen-desarrollador {
+  /* display: block; */
+  width: 343px; /* Ajusta el tamaño según sea necesario */
+  height: 331px;
+  border-radius: 50%;
+}
+
+.text-primary {
+  color: #007bff;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
 }

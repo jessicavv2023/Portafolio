@@ -229,7 +229,7 @@ h1 {
 .iconos-contenedor {
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .overlay i {
@@ -403,7 +403,11 @@ footer {
 }
 
 /* Adaptable (Responsivo) */
-
+@media (max-width: 575.98px) {
+  .block-final {
+    height: 465px !important;
+  }
+}
 @media screen and (max-width: 400px) {
   .overlay p {
     font-size: 18px;
@@ -506,7 +510,7 @@ strong {
 }
 
 .block-final {
-  height: 438px;
+  height: 430px;
 }
 
 /* codigo de chatgtp  para las felchas 
@@ -563,7 +567,7 @@ strong {
   background-color: #0b1357; /* Color de fondo azul claro */
   border: 10px solid #0b1357; /* Color del borde */
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 11px -1px 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
   /* height: 379px; */
   margin-bottom: 40px;

@@ -18,6 +18,7 @@ section {
   /* align-items: center; */
   justify-content: center;
   /* background-color: #ffc805; */
+  padding: 90px;
 }
 .sobre-mi {
   display: flex;
@@ -33,9 +34,14 @@ h1 {
 .seccion-oscura {
   color: white;
   background-color: #0b1357;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
-
+.seccion-oscuraa {
+  color: white;
+  background-color: #0b1357;
+  /* margin-top: 50px; */
+  margin-top: 154px;
+}
 .seccion-clara {
   color: black;
   background-color: white;
@@ -45,7 +51,7 @@ h1 {
   font-size: 2rem;
   padding: 15px 0;
   font-family: Rubik;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .seccion-descripcion {
@@ -64,6 +70,11 @@ h1 {
 
 .texto-negro {
   color: black;
+  margin-top: 19px;
+  margin-bottom: 47px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .texto-blanco {
@@ -97,7 +108,7 @@ h1 {
 /* Sobre mi */
 
 .sobre-mi {
-  height: 500px;
+  height: 400px;
   padding: 10px;
 }
 
@@ -206,6 +217,7 @@ h1 {
 .iconos-contenedor {
   display: flex;
   justify-content: center;
+  margin-bottom: 15px;
 }
 
 .overlay i {
@@ -328,7 +340,7 @@ h1 {
 /* Pie de pagina (footer) */
 
 footer {
-  min-height: 500px;
+  min-height: 150px;
 }
 
 .footer-logo {
@@ -340,8 +352,8 @@ footer {
 .footer-texto {
   font-size: 1.5rem;
   padding: 20px;
-  margin-bottom: 30px;
-  font-family: "Quicksand", sans-serif;
+  margin-bottom: -14px;
+  font-family: Rubik;
 }
 
 .iconos-redes-sociales a {
@@ -364,12 +376,12 @@ footer {
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  background-color: #ffc805;
+  border: 2px solid #ffc805;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .derechos-de-autor {
@@ -469,6 +481,12 @@ strong {
 .bi.bi-laptop {
   color: #ffffff;
   font-size: xxx-large;
+}
+.bi.bi-github:hover {
+  color: #0b1357;
+}
+.bi.bi-laptop:hover {
+  color: #0b1357;
 }
 .accordion-flush .accordion-item:last-child {
   border-bottom: 0;
